@@ -76,7 +76,7 @@ func run() error {
 	go func() {
 		var ok bool
 		var err error
-		if cfg.Usemysql == 0 {
+		/*if cfg.Usemysql == 0 {
 			if strings.HasPrefix(cfg.PanelUrl, "https://") || strings.HasPrefix(cfg.PanelUrl, "http://") {
 				ok, err = checkAuth(cfg.PanelUrl)
 			} else {
@@ -90,7 +90,7 @@ func run() error {
 			} else {
 				fatal("Please Add Mysql setting")
 			}
-		}
+		}*/
 		if ok && err == nil {
 			apiInbound := config.GetInboundConfigByTag(cfg.V2rayConfig.Api.Tag, cfg.V2rayConfig.InboundConfigs)
 			gRPCAddr := fmt.Sprintf("%s:%d", apiInbound.ListenOn.String(), apiInbound.PortRange.From)
