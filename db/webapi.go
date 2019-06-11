@@ -3,9 +3,9 @@ package db
 import (
 	"fmt"
 	"github.com/imroc/req"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/model"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/speedtest"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/utility"
+	"github.com/zxmmmmmmmmm/v2ray-sspanel-v3-mod_Uim-plugin-1/model"
+	"github.com/zxmmmmmmmmm/v2ray-sspanel-v3-mod_Uim-plugin-1/speedtest"
+	"github.com/zxmmmmmmmmm/v2ray-sspanel-v3-mod_Uim-plugin-1/utility"
 	"log"
 	"strconv"
 	"strings"
