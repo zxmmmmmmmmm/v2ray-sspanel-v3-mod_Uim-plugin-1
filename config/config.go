@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/go-sql-driver/mysql"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/utility"
+	"github.com/zxmmmmmmmmm/v2ray-sspanel-v3-mod_Uim-plugin-1/utility"
 	"io/ioutil"
 	"os"
 	"path/filepath"
